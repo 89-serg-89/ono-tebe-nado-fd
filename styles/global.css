@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   width: 1100px;
   margin: 0 auto;
@@ -37,6 +41,13 @@ button {
   font: inherit;
 }
 
+.section__heading {
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
 address {
   font-style: normal;
 }
@@ -46,9 +57,16 @@ address {
 }
 
 .text-color-white {
-  color: #fff
+  color: #fff;
 }
 
 .text-transform-uppercase {
   text-transform: uppercase;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
 }
