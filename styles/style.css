@@ -1,1 +1,104 @@
-/* место для вашего кода */
+.address {
+  display: flex;
+  flex-direction: column;
+  max-width: 240px;
+}
+
+.address p,
+.address a {
+  font-size: 18px;
+  line-height: 24.3px;
+  letter-spacing: 0;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 148px 1fr;
+  align-items: center;
+  padding: 92px 50px 96px;
+}
+
+.header__links-list {
+  display: flex;
+  column-gap: 32px;
+  list-style-type: circle;
+}
+
+.header__links-list-item_no-bullit {
+  list-style-type: none;
+}
+
+.header__link {
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
+.header__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__address {
+  justify-self: end;
+}
+
+.cover {
+  position: relative;
+  min-height: 757px;
+  background: url("../images/cover.jpg") no-repeat 51% / cover;
+}
+
+.cover .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.cover__title {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding: 165px 50px 106px;
+}
+
+.cover .aligned-text {
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 115%;
+  letter-spacing: 0.3em;
+}
+
+.cover .aligned-text_center {
+  align-self: center;
+}
+
+.cover .aligned-text_right {
+  align-self: flex-end;
+}
+
+.cover__description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 50px;
+}
+
+.cover__description-text {
+  font-size: 22px;
+  line-height: 28px;
+  word-spacing: 18.5px;
+}
+
+.cover .bet-button {
+  padding: 12px 33px 12px 31px;
+  font-size: 22px;
+  background: transparent;
+  border: 1px solid #fff;
+}

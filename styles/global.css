@@ -36,3 +36,19 @@ img {
 button {
   font: inherit;
 }
+
+address {
+  font-style: normal;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
+}
+
+.text-color-white {
+  color: #fff
+}
+
+.text-transform-uppercase {
+  text-transform: uppercase;
+}
